@@ -1,0 +1,36 @@
+/**
+ * You can edit, run, and share this code.
+ * play.kotlinlang.org
+ */
+fun main() {
+    println("Hello, world!!!");
+    
+    //Variables implicitas
+    var nombre = "Heroe"; //string
+    var clase = "Soldado"; //string
+    var nivel = 1; //int
+    var hp = 20.5; //double
+    var espada = true; //boolean
+    
+    //variables explicitas
+    var enemy_name: String = "Lobo"; //string
+    var enemy_lv: Int? = 1; //int
+    var enemy_hp: Double = 7.5; //double
+    var enemy_attack: String? = null; //string
+    var enemy_live: Boolean = true; //boolean
+    
+    //Constantes Implicitoss
+    val npc_name = "NPC"; //string
+    val npc_class = "guardia"; //string
+    val npc_lv = 1; //int
+    val npc_hp = 5.5; //double
+    val npc_weapon = true; //boolean
+    
+    //Constantes Explicitas
+    val item_name: String = "sword";
+    val item_cost: Float = 40;
+    val item_str: Int = 5;
+    val item_speed: Double = 1.5;
+    val item_equip: Boolean = true;
+    
+}
